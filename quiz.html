@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoGuide waste management and recycling resources.">
+  <title>Waste Sorting Quiz | EcoGuide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">🌱</span><span>EcoGuide</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="categories.html">WASTE CATEGORIES</a>
+        <a href="guide.html">RECYCLING GUIDE</a>
+        <a href="locations.html">LOCATIONS</a>
+        <a href="tips.html">ECO TIPS</a>
+        <a href="quiz.html" aria-current="page">WASTE QUIZ</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container narrow">
+        <h1 class="section-heading">Waste Sorting Quiz</h1>
+        <p class="section-intro">Choose one answer for each item. CSS will reveal feedback for the answer you select. Always follow your local waste rules.</p>
+
+        <div class="quiz-card">
+          <fieldset>
+            <legend>1. A banana peel belongs to which category?</legend>
+            <input type="radio" name="q1" id="q1a">
+            <label for="q1a">A. Biodegradable</label>
+            <p class="quiz-feedback correct"><strong>Correct!</strong> Food scraps can break down naturally and may be composted where local rules allow.</p>
+            <input type="radio" name="q1" id="q1b">
+            <label for="q1b">B. Residual</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> A banana peel is organic material that can decompose.</p>
+            <input type="radio" name="q1" id="q1c">
+            <label for="q1c">C. Hazardous</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> A banana peel is ordinary food waste, not hazardous waste.</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. A clean glass bottle accepted by your local program is:</legend>
+            <input type="radio" name="q2" id="q2a">
+            <label for="q2a">A. Residual waste</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> If your local program accepts it, a clean glass bottle can be recycled.</p>
+            <input type="radio" name="q2" id="q2b">
+            <label for="q2b">B. Recyclable</label>
+            <p class="quiz-feedback correct"><strong>Correct!</strong> Check whether your local collection program accepts glass.</p>
+            <input type="radio" name="q2" id="q2c">
+            <label for="q2c">C. Biodegradable</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> Glass does not break down like food scraps; it may be recyclable where accepted.</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Used household batteries should be treated as:</legend>
+            <input type="radio" name="q3" id="q3a">
+            <label for="q3a">A. Biodegradable waste</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> Batteries should not be mixed with ordinary organic waste.</p>
+            <input type="radio" name="q3" id="q3b">
+            <label for="q3b">B. Regular recyclable paper</label>
+            <p class="quiz-feedback incorrect"><strong>Try again.</strong> Batteries need separate handling and collection.</p>
+            <input type="radio" name="q3" id="q3c">
+            <label for="q3c">C. Hazardous or special waste</label>
+            <p class="quiz-feedback correct"><strong>Correct!</strong> Keep batteries separate and ask your local government about proper collection.</p>
+          </fieldset>
+
+          <p class="location-note">This quiz uses HTML radio buttons and CSS selectors only. CSS can show feedback for each selected answer, but it cannot automatically calculate a total score.</p>
+          <div class="center-action">
+            <a class="button" href="categories.html">Review Waste Categories</a>
+            <a class="button button-secondary" href="quiz.html">Reset Quiz</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="categories.html">Waste Categories</a>
+        <a href="guide.html">Recycling Guide</a>
+      </div>
+      <p>© 2026 EcoGuide. All rights reserved.DiminoJayrous</p>
+    </div>
+  </footer>
+</body>
+</html>
